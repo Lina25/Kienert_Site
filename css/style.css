@@ -202,6 +202,9 @@
   float: left;
   padding-right: 7px;
 }
+.fa-caret-down {
+  padding-left: 7px;
+}
 
 .uberuns {
   background-image: url("http://www.kanzlei-kienert.de/images/rechtsanwalt-kevin-kienert.png");
