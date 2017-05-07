@@ -46,10 +46,13 @@
 }
 
 .main_section {
-  min-height: 620px;
   font-family: 'Open Sans', sans-serif;
-  background-image: url("cover.jpg");
+/*  background-image: url("cover.jpg") center center cover no-repeat fixed;*/
   color: #fff;
+  background-position: left left;
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+  background-size: cover;
   padding-top: 100px;
   padding-bottom: 40px;
 }
@@ -190,7 +193,7 @@ download_li ul {
 .fa-square {
   float: left;
   padding-right: 15px;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 .fa-map-marker,
@@ -218,10 +221,34 @@ download_li ul {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.gebuhren {
+  background-color: #fff;
+  background-image: none;
+
+}
+.gebuhren h3 {
+  color:#56151E;
+}
 .contact_f {
   overflow: hidden;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
   line-height: 15px;
+}
+.presse {
+  background-color: #A8A8A8;
+  color:#fff;
+}
+.presse h3 {
+  color:#56151E;
+}
+.presse a {
+  color:#fff;
+}
+.presse a:visited {
+  color:#000;
+}
+.presse a:hover {
+  color:#000;
 }
