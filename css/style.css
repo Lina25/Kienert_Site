@@ -1,12 +1,27 @@
 /*
 html,
-body {
+body {  navbar-toggler-icon
    margin:0;
    padding:0;
    height:100%;
 }
 */
+/*large screen*/
+/*
+@media screen and (max-width: 1200px) {
+  
+}
+*/
+  
+/*  medium screen*/
+/*
+@media only screen and(max-width: 992px) {
+  
+}
+*/
 
+
+  
 .main_head {
   background-color: #F6F6F6;
   font-family: 'Open Sans', sans-serif;
@@ -24,7 +39,11 @@ body {
 .top_nav a:hover {
   color: #56151E;
 }
-
+@media screen and (max-width: 699px) and (min-width: 520px) {
+   .top_nav ul li a {
+        background-color:red;
+    }
+}
 .top_nav #nav > .active > a {
   color: #56151E;
 }
@@ -53,6 +72,57 @@ body {
 .logo img {
   width: 319px;
 }
+
+
+.toggle-mnu {
+		float: right;
+		position: absolute;
+		right: 0;
+		top: 0;
+		text-align: center;
+		line-height: 59px;
+}
+.toggle-mnu {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin-top: -30px;
+}
+.toggle-mnu span:after,
+.toggle-mnu span:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 9px;
+}
+.toggle-mnu span:after{
+	top: 18px;
+}
+.toggle-mnu span {
+	position: relative;
+	display: block;
+}
+
+.toggle-mnu span,
+.toggle-mnu span:after,
+.toggle-mnu span:before {
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+	transition: all 0.3s;
+	backface-visibility: hidden;
+	border-radius: 2px;
+}
+.toggle-mnu.on span {
+	background-color: transparent
+}
+.toggle-mnu.on span:before {
+	transform: rotate(45deg) translate(-1px, 0px)
+}
+.toggle-mnu.on span:after {
+	transform: rotate(-45deg) translate(6px, -7px)
+}
+
 
 .main_section {
   font-family: 'Open Sans', sans-serif;

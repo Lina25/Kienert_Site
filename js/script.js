@@ -4,3 +4,9 @@
 //           $($(this).attr('href')).addClass('active');
 //        });
 //     });
+   $(document).ready(function(){
+     $(".toggle-mnu").click(function(){
+      $(this).toggleClass("on");
+       $(".top_nav").slideToggle();
+     })
+   })
