@@ -1,3 +1,15 @@
+
+/*
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+*/
+body > .container {
+  padding-top: 60px;
+}
 .main_head {
   background-color: #F6F6F6;
  font-family: 'Open Sans', sans-serif;
@@ -16,7 +28,7 @@
   color: #56151E;
 }
 
-.top_nav li a.active {
+.top_nav #nav > .active > a {
   color: #56151E;
 }
 
@@ -50,10 +62,9 @@
 /*  background-image: url("cover.jpg") center center cover no-repeat fixed;*/
   color: #fff;
   background-position: left left;
-    background-repeat: no-repeat;
-/*    background-attachment: fixed;*/
+  background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 40px;
 }
 
@@ -131,8 +142,27 @@
   color: #fc4d3a;
   background-color: #fff;
 }
-
+/*
+.page-wrap {
+  min-height: 100%;
+   equal to footer height 
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer_second, .page-wrap:after {
+  height: 142px; 
+}
+*/
 .footer_second {
+/*
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+*/
   background-color: #454545;
   color: #BBBBBB;
   padding-top: 20px;
@@ -221,6 +251,10 @@ download_li ul {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.common_style h1 {
+  font-weight: 800;
+   color: #56151E;
+}
 .gebuhren {
   background-color: #fff;
   background-image: none;
@@ -237,18 +271,46 @@ download_li ul {
   line-height: 15px;
 }
 .presse {
-  background-color: #A8A8A8;
-  color:#fff;
-}
-.presse h3 {
-  color:#56151E;
+  background-color: #dbdbdb;
+  color:#454545;
 }
 .presse a {
-  color:#fff;
+  color: #56151E;
+  text-decoration: underline;
 }
-.presse a:visited {
+
+
+.presse ul li a:hover {
   color:#000;
 }
-.presse a:hover {
-  color:#000;
+.impressum {
+  background-image: none;
 }
+
+.impressum h1 {
+  color:#56151E;
+}
+.impressum h3 {
+  font-weight: 800;
+  color:#454545;
+}
+.impressum a {
+   color: #56151E;
+  text-decoration: underline;
+}
+.daten h1 {
+  color:#56151E;
+}
+.sozialrecht {
+  background-image: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.sozialrecht h3 {
+  color: #56151E;
+}
+.sozialrecht h1 {
+  font-weight: 800;
+  color: #454545;
+}
+
+
