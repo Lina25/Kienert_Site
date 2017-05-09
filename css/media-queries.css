@@ -43,9 +43,9 @@
     padding-bottom: 0;
   }
    .footer_nav li {
-     display: block;
+    display: block;
     text-align: left;
     float: left;
-     width: 50%;
+    width: 50%;
   }
 }
