@@ -27,6 +27,12 @@
     background-image: none;
     background-color: #7F7F7F;
   }
+  .hh {
+   text-align: left;
+  } 
+  .hh1 {
+    text-align: left;
+  }
   .logo img {
     width: 150px;
   }
