@@ -16,11 +16,7 @@
 .top_nav a:hover {
   color: #56151E;
 }
-@media screen and (max-width: 699px) and (min-width: 520px) {
-   .top_nav ul li a {
-        background-color:red;
-    }
-}
+
 .top_nav #nav > .active > a {
   color: #56151E;
 }
@@ -102,7 +98,7 @@
 
 .main_section {
   font-family: 'Open Sans', sans-serif;
-/*  background-image:url(cover.jpg);*/
+  background-image:url('../cover.jpg');
   color: #fff;
   background-position: left left;
   background-repeat: no-repeat;
