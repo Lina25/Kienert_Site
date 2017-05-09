@@ -42,7 +42,10 @@
   .recht_p {
     padding-bottom: 0;
   }
-   .footer_second {
-    text-align: center;
+   .footer_nav li {
+     display: block;
+    text-align: left;
+    float: left;
+     width: 50%;
   }
 }
