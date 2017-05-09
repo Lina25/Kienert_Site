@@ -1,27 +1,4 @@
-/*
-html,
-body {  navbar-toggler-icon
-   margin:0;
-   padding:0;
-   height:100%;
-}
-*/
-/*large screen*/
-/*
-@media screen and (max-width: 1200px) {
-  
-}
-*/
-  
-/*  medium screen*/
-/*
-@media only screen and(max-width: 992px) {
-  
-}
-*/
 
-
-  
 .main_head {
   background-color: #F6F6F6;
   font-family: 'Open Sans', sans-serif;
@@ -75,12 +52,12 @@ body {  navbar-toggler-icon
 
 
 .toggle-mnu {
-		float: right;
-		position: absolute;
-		right: 0;
-		top: 0;
-		text-align: center;
-		line-height: 59px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 59px;
 }
 .toggle-mnu {
 	display: block;
@@ -114,19 +91,18 @@ body {  navbar-toggler-icon
 	border-radius: 2px;
 }
 .toggle-mnu.on span {
-	background-color: transparent
+	background-color: transparent;
 }
 .toggle-mnu.on span:before {
-	transform: rotate(45deg) translate(-1px, 0px)
+	transform: rotate(45deg) translate(-1px, 0px);
 }
 .toggle-mnu.on span:after {
-	transform: rotate(-45deg) translate(6px, -7px)
+	transform: rotate(-45deg) translate(6px, -7px);
 }
-
 
 .main_section {
   font-family: 'Open Sans', sans-serif;
-  /*  background-image: url("cover.jpg") center center cover no-repeat fixed;*/
+/*  background-image:url(cover.jpg);*/
   color: #fff;
   background-position: left left;
   background-repeat: no-repeat;
@@ -326,7 +302,7 @@ download_li ul {
 }
 
 .presse {
-  background-color: #dbdbdb;
+  background-color: #FFFF;
   color: #454545;
 }
 

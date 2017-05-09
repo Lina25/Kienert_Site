@@ -1,8 +1,33 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-width:992px) {
   .top_nav {
     display: none;
   }
+  
+  .main_section {
+    text-align: left;
+  }
+  
   .footer_second {
     text-align: center;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .top_nav {
+    display: none;
+  }
+  
+  .main_section {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .main_section {
+    background-image: none;
+    background-color: #7F7F7F;
+  }
+  .logo img {
+    width: 150px;
   }
 }
