@@ -17,6 +17,12 @@
   .main_section {
     text-align: left;
   }
+   .recht_p {
+    padding-bottom: 0;
+  }
+   .footer_second {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -24,13 +30,19 @@
     background-image: none;
     background-color: #7F7F7F;
   }
-  .hh {
+  .main_h {
     text-align: left;
   }
-  .hh1 {
+  .main_h2 {
     text-align: left;
   }
   .logo img {
     width: 150px;
+  }
+  .recht_p {
+    padding-bottom: 0;
+  }
+   .footer_second {
+    text-align: center;
   }
 }

@@ -188,6 +188,7 @@
   color: #BBBBBB;
   padding-top: 20px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .footer_nav li {
@@ -205,12 +206,12 @@ download_li ul {
   list-style-type: none;
 }
 
-.hh {
+.main_h {
   text-align: center;
   line-height: 45px;
 }
 
-.hh1 {
+.main_h2 {
   color: #15264C;
   line-height: 40px;
 }
@@ -264,7 +265,17 @@ download_li ul {
 .fa-caret-down {
   padding-left: 7px;
 }
-
+.recht_h {
+  text-align:center;
+  padding-bottom:40px;
+  color:#56151E;
+}
+.recht_p {
+  padding-bottom:30px;
+}
+.recht {
+  padding-bottom:50px;
+}
 .common_style {
   background-image: url("http://www.kanzlei-kienert.de/images/rechtsanwalt-kevin-kienert.png");
   background-repeat: no-repeat;
