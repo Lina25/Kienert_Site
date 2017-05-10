@@ -1,7 +1,28 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 
+/*
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+*/
+
+body {
+  position: relative;
+  margin: 0;
+/*  padding-bottom: 6rem;*/
+  min-height: 100%;
+
+}
+/*
 body {
   font-family: 'Open Sans', sans-serif !important;
 }
+*/
 .main_head {
   background-color: #F6F6F6;
   font-family: 'Open Sans', sans-serif;
@@ -163,6 +184,7 @@ body {
 
 .footer_icons {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer_icons a {
@@ -196,6 +218,15 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.footer_seconds {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
 }
 
 .footer_nav li {
@@ -251,6 +282,11 @@ download_li ul {
 }
 
 .fa-square {
+  float: left;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+.fa-check {
   float: left;
   padding-right: 15px;
   padding-top: 5px;
