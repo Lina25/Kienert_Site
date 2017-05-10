@@ -23,6 +23,9 @@
    .footer_second {
     text-align: center;
   }
+  .footer_icons {
+    padding-bottom:0;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -50,5 +53,20 @@
   }
   .gebuhren p {
     font-size:16px;
+  }
+  .footer_icons {
+    padding-bottom:0;
+  }
+  .main_h {
+    font-size: 18px;
+  }
+  .contact_h {
+    font-size: 18px;
+  }
+  .hhh {
+    font-size: 18px;
+  }
+  .recht_p {
+    font-size: 16px;
   }
 }
