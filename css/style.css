@@ -213,17 +213,6 @@ body {
   text-align: center;
 }
 
-/*
-.footer_seconds {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: black;
-}
-*/
-
 .footer_nav li {
   display: inline-block;
   text-decoration: none;
@@ -245,7 +234,6 @@ download_li ul {
 }
 
 .main_h2 {
-  color: #15264C;
   line-height: 40px;
 }
 
