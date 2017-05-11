@@ -5,8 +5,20 @@
   .main_section {
     text-align: left;
   }
+   .footer_first {
+    padding-bottom: 120px;
+  }
   .footer_second {
     text-align: center;
+  }
+  .footer_icons {
+    padding-bottom: 0;
+  }
+  .hhh {
+    padding-top: 33px;
+  }
+  .recht {
+    padding-bottom: 30px;
   }
 }
 
@@ -15,7 +27,11 @@
     display: none;
   }
   .main_section {
-    text-align: left;
+    text-align: center;
+  }
+  .main_section {
+    background-image: none;
+    background-color: #7F7F7F;
   }
    .recht_p {
     padding-bottom: 0;
@@ -27,7 +43,7 @@
     padding-bottom:0;
   }
   .footer_first {
-    padding-bottom: 90px;
+    padding-bottom: 120px;
   }
 /*
   .recht {
@@ -54,11 +70,10 @@
   .recht_p {
     padding-bottom: 0;
   }
-   .footer_nav li {
+  .footer_nav li {
     display: block;
-    text-align: left;
-    float: left;
-    width: 50%;
+    width: 100%;
+    padding-right: 0;
   }
   .gebuhren p {
     font-size:16px;
@@ -72,11 +87,41 @@
   .contact_h {
     font-size: 18px;
   }
+  .footer_first {
+    padding-bottom: 160px;
+  }
   .hhh {
     font-size: 18px;
     padding-top: 30px; 
   }
   .recht_p {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .footer_nav li {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-right: 0;
+  }
+  .footer_first {
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 190px;
+  }
+  .contact_f {
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+
+  }
+   .footer_nav li {
+    display: block;
+    width: 100%;
+  }
+  .common_style {
+    background-image: none;
   }
 }
